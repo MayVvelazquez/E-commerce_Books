@@ -1,15 +1,4 @@
-'''
-Este código importa diferentes módulos y clases necesarios para el desarrollo de una aplicación Flask.
 
-Flask: Es la clase principal de Flask, que se utiliza para crear instancias de la aplicación Flask.
-jsonify: Es una función que convierte los datos en formato JSON para ser enviados como respuesta desde la API.
-request: Es un objeto que representa la solicitud HTTP realizada por el cliente.
-CORS: Es una extensión de Flask que permite el acceso cruzado entre dominios (Cross-Origin Resource Sharing), lo cual es útil cuando se desarrollan aplicaciones web con frontend y backend separados.
-SQLAlchemy: Es una biblioteca de Python que proporciona una abstracción de alto nivel para interactuar con bases de datos relacionales.
-Marshmallow: Es una biblioteca de serialización/deserialización de objetos Python a/desde formatos como JSON.
-Al importar estos módulos y clases, estamos preparando nuestro entorno de desarrollo para utilizar las funcionalidades que ofrecen.
-
-'''
 # Importa las clases Flask, jsonify y request del módulo flask
 from flask import Flask, jsonify, request
 # Importa la clase CORS del módulo flask_cors
@@ -19,14 +8,7 @@ from flask_sqlalchemy import SQLAlchemy
 # Importa la clase Marshmallow del módulo flask_marshmallow
 from flask_marshmallow import Marshmallow
 
-'''
-En este código, se está creando una instancia de la clase Flask y se está configurando para permitir el acceso cruzado entre dominios utilizando el módulo CORS.
 
-app = Flask(__name__): Se crea una instancia de la clase Flask y se asigna a la variable app. El parámetro __name__ es una variable que representa el nombre del módulo o paquete en el que se encuentra este código. Flask utiliza este parámetro para determinar la ubicación de los recursos de la aplicación.
-
-CORS(app): Se utiliza el módulo CORS para habilitar el acceso cruzado entre dominios en la aplicación Flask. Esto significa que el backend permitirá solicitudes provenientes de dominios diferentes al dominio en el que se encuentra alojado el backend. Esto es útil cuando se desarrollan aplicaciones web con frontend y backend separados, ya que permite que el frontend acceda a los recursos del backend sin restricciones de seguridad del navegador. Al pasar app como argumento a CORS(), se configura CORS para aplicar las políticas de acceso cruzado a la aplicación Flask representada por app.
-
-'''
 # Crea una instancia de la clase Flask con el nombre de la aplicación
 app = Flask(__name__)
 # Configura CORS para permitir el acceso desde el frontend al backend
