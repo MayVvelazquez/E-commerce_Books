@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    min-height: 100%;
+    background-color: #cccccc;
+    background-image:  url("../img/books(1).jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.2em solid white;
+    width: 15rem;
+    height: 15rem;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    transform: translate(-50% -50%);
+    background-color: hsl(0, 0%, 100%, 40%);
+    color: black;
+    padding: 12px;
+}
+.box button{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+
+}
