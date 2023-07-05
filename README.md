@@ -1,1 +1,1 @@
- TENGO PROBLEMA CON EL GITHUB-PAGES PARA QUE OUEDA RECONOCER Y VISUALIZAR LA PAGINA
+ Tengo problema con el github-pages para que pueda reconcer y visualizar la pagina
