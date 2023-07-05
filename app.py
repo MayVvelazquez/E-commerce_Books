@@ -102,3 +102,4 @@ def update_producto(id):
 if __name__ == "__main__":
 #     # Ejecuta el servidor Flask en el puerto 5000 en modo de depuración
      app.run(debug=True, port=5000)
+'''
