@@ -1,4 +1,4 @@
-
+'''
 # Importa las clases Flask, jsonify y request del módulo flask
 from flask import Flask, jsonify, request
 # Importa la clase CORS del módulo flask_cors
